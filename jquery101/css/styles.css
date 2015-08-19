@@ -1,0 +1,27 @@
+
+body {
+	
+}
+
+header {
+	height: 100vh;
+	position: fixed;
+	width: 20em;
+	background-color: rgba(255,0,0,.5);
+	top: 0;
+	left:-17.5em;
+}
+
+main {
+	min-height: 100vh;
+}
+
+#slide-button {
+	font-size: 2em;
+	float: right;
+	width: 1em;
+	color: #fff;
+	/*border: 1px #fff solid;*/
+
+
+}
