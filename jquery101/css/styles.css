@@ -16,12 +16,24 @@ main {
 	min-height: 100vh;
 }
 
+#accordion {
+	margin-left: 5em;
+	list-style-type: none;
+	padding: 0;
+}
+#accordion li {
+	width: 80%;
+	border-bottom: 1px #000 solid;
+}
+#accordion li h2 i {
+	margin-right: 0.5em;
+	color: rgba(255,0,0,.5);
+}
 #slide-button {
 	font-size: 2em;
 	float: right;
 	width: 1em;
 	color: #fff;
 	/*border: 1px #fff solid;*/
-
-
 }
+
