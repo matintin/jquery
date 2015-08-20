@@ -1,0 +1,89 @@
+body {
+	display: flex;
+}
+header {
+	height: 100vh;
+	flex:0 0 20em;
+	color: rgba(0,0,0,0);
+	background-color: rgba(255,0,0,.5);
+	transition: padding .5s ease .3s,flex 1.5s ease .3s;
+	order:0;
+}
+nav li {
+	list-style-type: none;
+	margin-bottom: 0.2em;
+}
+nav a {
+	flex:0 0 100%;
+	text-decoration: none;
+	color: #000;
+	transition:color 3s;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+.hide {
+	flex:0 0 0;
+	padding: 0;
+	
+	transition: flex 1.5s ease .3s,padding .5s ease .3s;
+	
+}
+.hide a {
+	color: rgba(0,0,0,0);
+	transition:color 1s;
+}
+.effects {
+	margin-top: 0.3em;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content:flex-end;
+}
+#order {
+	display: flex;
+	flex:0 0 3em;
+	
+}
+#slide-button {
+	display: flex;
+	flex:0 0 3em;
+
+	/*margin-left: 1em;*/
+}
+
+#slide-button i ,#order i{
+	flex: 0 0 1em;
+	font-size: 2em;
+	color: rgba(255,0,0,.5);
+	cursor: hand;
+	cursor: pointer;
+}
+
+main {
+	flex:1 0 1em;
+	order:1;
+
+}
+#accordion {
+
+	list-style-type: none;
+	margin: 1em;
+	padding: 0;
+
+	
+}
+#accordion li {
+	display: flex;
+	flex:1 0 50%;
+	flex-direction:column;
+	margin-right: 10em;
+	border-bottom:thin #000 solid;
+}
+
+#accordion li h2 i {
+	
+}
+
+/*#accordion p {
+
+}*/
